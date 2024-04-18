@@ -18,7 +18,7 @@
     width: 200px;
     height: 500px;
     background: linear-gradient(#00ccff,#d500f9);
-    animation: rotate 4s linear infinite;
+    animation: rotate 10s linear infinite;
 }
 .box::after{
     content: '';
@@ -51,8 +51,6 @@
     border-radius: 20px;
     z-index: 3;
     background: transparent;
-    
-    
    border: 2px ;
    border-style: solid;
     font-family: "Poppins", sans-serif;

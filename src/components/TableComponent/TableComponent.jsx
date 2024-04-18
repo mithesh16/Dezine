@@ -9,6 +9,7 @@ const TableComponent = () => {
    
     >
       <div class="ag-courses_box">
+        
         <div class="ag-courses_item"
         
         onClick={()=>{

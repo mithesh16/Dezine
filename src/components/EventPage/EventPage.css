@@ -30,7 +30,7 @@
     
 }
 .eve-des-con p{
-    text-align: left;
+    text-align: justify;
     line-height: 30px;
     font-size: 20px;
 
@@ -64,7 +64,7 @@
 }
 .extra-con p{
     font-size: 20px;
-    text-align: left;
+    text-align: justify;
     color: rgb(193, 189, 189);
     
 }
@@ -77,15 +77,18 @@
 }
 .eve-rules-con p{
     font-size: 20px;
-    text-align: left;
+    text-align: justify;
     color: rgb(193, 189, 189);
 }
 .contact-container{
-    display: flex;
     justify-content: space-between;
     margin-top: 20px;
     
-
+}
+.contact-container-text{
+    display: grid;
+    gap: 10px;
+    font-size: 20px;
 }
 .note-con{
     color: rgb(239, 13, 13);
@@ -97,7 +100,7 @@
 }
 .note-con p{
     font-size: 20px;
-    text-align: left;
+    text-align: justify;
 }
 
 
@@ -110,8 +113,9 @@
 
 .eve-btn-con{
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: center;
+    align-items: center;
+    gap: 0px 10px;
 }
 
 

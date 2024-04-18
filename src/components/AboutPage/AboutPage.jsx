@@ -13,14 +13,12 @@ const AboutPage = () => {
       
           <div className='abt-con-container'>
                  <div className='abt-con-text'>
-                    <h4 className=''>About us</h4>
+                    <h4>About us</h4>
                     <p>
                     DEZINE is a fantastic venue where students may showcase their tech-integrated design abilities.The class of '21 takes great
                      pride in hosting the inaugural "DEZINE" symposium to all the students. It provides an outlet for your latent abilities in 
                      the areas of design and computer science-related technical pursuits. DEZINE aims to foster networking, collaboration, 
                      and the exchange of ideas in evidence-based practice and education.With a strong focus on evidence-based practice. 
-
-                     
                     </p>
                     </div>
 

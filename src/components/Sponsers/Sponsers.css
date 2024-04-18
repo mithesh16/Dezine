@@ -5,13 +5,14 @@
 .spon-sec h1{
    color: white;
    text-align: center;
+   padding: 70px 30px;
 }
 .spon-sec img{
     width: 100px;
     height: 100px;
     object-fit: contain;
-    border: 1px solid white;
-    margin-top: 70px;
+border: 1px solid white;
+  
 }
 .mark-img-con{
     display: flex;

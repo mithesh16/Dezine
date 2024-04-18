@@ -46,8 +46,11 @@ const WorkshopEvents = () => {
         </div>
 
        <div className='contact-container'  >
-        <h4>Event Head:<span>{ShowWorkshop[0].Head}</span></h4>
-        <h4>Mobile number:<span>{ShowWorkshop[0].Contact}</span></h4>
+       <h4>Event Co-ordinators:</h4>
+       <div className='contact-container-text'>
+          <span>{ShowWorkshop[0].Head1} - {ShowWorkshop[0].Contact1}</span>
+          <span>{ShowWorkshop[0].Head2} - {ShowWorkshop[0].Contact2}</span>
+          </div>
        </div>
 
        <div className='register-container' >
@@ -57,7 +60,7 @@ const WorkshopEvents = () => {
            </div>
            <div className='eve-btn-con'>
 
-          <a href='https://forms.gle/KMe9rseqcMUWKfYh7'> <button className='bt1' >Register to Symphosium</button></a>
+          <a href='https://forms.gle/KMe9rseqcMUWKfYh7'> <button className='bt1' >Register to Symposium</button></a>
            <a href='https://forms.gle/EPF4PFdYRFevsCnm8'><button className='bt2' >Register to {ShowWorkshop[0].name}</button></a>
            
             

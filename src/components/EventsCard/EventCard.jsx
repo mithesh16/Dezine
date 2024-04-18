@@ -12,7 +12,7 @@ const EventCard = (props) => {
          <img src={props.data.image} />
          <button  onClick={()=>{
                 navigate('/'+props.data.id)
-         }} >Explore {props.data.name}  </button>
+         }} >Explore  </button>
       </div>
       </div>
   )

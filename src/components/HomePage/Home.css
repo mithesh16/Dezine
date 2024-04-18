@@ -6,14 +6,17 @@
 .main-con{
   transform: translateY(-100px);
 }
-.dpt{
- font-size: 24px;
+
+.pre{
+  font-size: 22px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
   color:rgb(222, 219, 219);
- 
+  padding-top: 10px;
+  text-align: center;
   transform: translateY(10px);
+
 }
 #stars {
   width: 1px;
@@ -66,12 +69,6 @@
   box-shadow: 1470px 1831px #FFF , 1177px 826px #FFF , 402px 1514px #FFF , 785px 211px #FFF , 44px 1767px #FFF , 1448px 7px #FFF , 132px 1792px #FFF , 827px 259px #FFF , 294px 766px #FFF , 1384px 1340px #FFF , 929px 1303px #FFF , 1578px 1163px #FFF , 106px 842px #FFF , 1023px 1843px #FFF , 788px 146px #FFF , 870px 1720px #FFF , 444px 603px #FFF , 1784px 1547px #FFF , 1408px 85px #FFF , 1296px 848px #FFF , 1113px 1370px #FFF , 268px 1611px #FFF , 1656px 188px #FFF , 822px 1080px #FFF , 195px 94px #FFF , 630px 429px #FFF , 1646px 1200px #FFF , 54px 860px #FFF , 407px 1905px #FFF , 749px 166px #FFF , 1991px 1013px #FFF , 1522px 1106px #FFF , 1048px 1882px #FFF , 1126px 1450px #FFF , 912px 1074px #FFF , 29px 1078px #FFF , 1286px 692px #FFF , 620px 1241px #FFF , 1458px 839px #FFF , 491px 22px #FFF , 575px 178px #FFF , 1409px 443px #FFF , 384px 47px #FFF , 1547px 81px #FFF , 717px 963px #FFF , 372px 698px #FFF , 1429px 831px #FFF , 892px 1034px #FFF , 1233px 822px #FFF , 1596px 1248px #FFF , 495px 508px #FFF , 955px 1416px #FFF , 1811px 1153px #FFF , 869px 1848px #FFF , 1974px 228px #FFF , 1841px 1742px #FFF , 1618px 751px #FFF , 283px 953px #FFF , 294px 920px #FFF , 150px 371px #FFF , 1771px 1306px #FFF , 112px 828px #FFF , 1695px 350px #FFF , 1270px 1426px #FFF , 436px 1223px #FFF , 866px 798px #FFF , 46px 687px #FFF , 1448px 219px #FFF , 397px 519px #FFF , 1634px 1686px #FFF , 171px 1477px #FFF , 1858px 915px #FFF , 340px 1992px #FFF , 1549px 1014px #FFF , 1721px 608px #FFF , 1212px 1945px #FFF , 719px 1454px #FFF , 1726px 399px #FFF , 680px 84px #FFF , 1957px 1465px #FFF , 1724px 1751px #FFF , 1559px 628px #FFF , 1981px 911px #FFF , 1376px 436px #FFF , 387px 1686px #FFF , 684px 301px #FFF , 1427px 1937px #FFF , 747px 565px #FFF , 1417px 834px #FFF , 1117px 505px #FFF , 1993px 1823px #FFF , 673px 1968px #FFF , 417px 1115px #FFF , 1580px 152px #FFF , 1812px 1303px #FFF , 982px 1694px #FFF , 646px 532px #FFF , 85px 300px #FFF , 1143px 1398px #FFF , 1993px 1863px #FFF;
 }
 
-
-
-
-
-
-
 #title {
   position: absolute;
   top: 50%;
@@ -97,7 +94,7 @@
 }
 .title-font{
   font-family: ELEPHNT;
-  font-size: 200px;
+  /* font-size: 200px; */
 }
 
 .marquee-con{
@@ -111,11 +108,37 @@
   font-size: 30px;
   text-align: center;
   transform: translateY(-20px);
-  background: -webkit-linear-gradient(#eee, #333);
+  background: rgb(204,210,215);
+background: linear-gradient(0deg, rgba(204,210,215,1) 19%, rgba(117,128,139,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 30px;
+}
+.para-venue{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+  transform: translateY(-20px);
+  margin: 10px;
+  background: rgb(204,210,215);
+background: linear-gradient(0deg, rgba(204,210,215,1) 19%, rgba(117,128,139,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+.para-dpt{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+  color: #969595;
+  transform: translateY(-20px);
+  /* background: -webkit-linear-gradient(#eee, #222);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -123,7 +146,31 @@
  .para{
   font-size: 14px;
   transform: translateY(0px);
+  margin-top: 10px;
  }
+ .para-venue{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+  transform: translateY(-20px);
+  margin: 10px;
+  color: #75808b;
+  
+
+}
+.para-dpt{
+  
+  transform: translateY(20px);
+  color: #969595;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+
  @font-face{
   src: url(../../assets/ELEPHNT.TTF);
 }
@@ -131,6 +178,8 @@
   font-family: ELEPHNT;
   font-size: 40px;
 }
+
+
 .main-con div{
   
   transform: translateY(100px);
@@ -143,14 +192,5 @@
   transform: translateX(8px);
 
 }
-.dpt{
-  
-  transform: translateY(20px);
-  color: red;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  color:rgb(222, 219, 219);
-  
-}
+
 }

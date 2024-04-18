@@ -8,21 +8,23 @@
     justify-content: space-between;
     align-items: center;
     background-color: rgb(4, 4, 4);
-    padding: 70px 30px;
+    padding: 0px 30px;
+   
    
 
 }
 .abt-con-text{
     width: 50%;
-    
-    
 }
 .abt-con-text h4{
     font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
-  color:white;
   font-size: 36px;
+  color: #ffffff;
+  text-shadow: 0 0 2px #ffffff, 0 0 10px #ffffff, 0 0 20px #0ba9ca, 0 0 30px #0ba9ca, 0 0 40px #0ba9ca, 0 0 50px #0ba9ca;
+  -webkit-animation: blink 1.5s infinite alternate;
+          animation: blink 1.5s infinite alternate;
   
 
 }
@@ -30,11 +32,10 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-
     color: rgb(193, 189, 189);
     padding-top: 20px;
-    font-size: 20px;
-    text-align: start;
+    font-size: 25px;
+    text-align: justify;
     line-height: 30px;
 }
 .abt-con-container img{
@@ -67,16 +68,21 @@
    width: 100vw;
   
   }
+
   .abt-con-text h4{
     font-size: 24px;
     line-height: 30px;
     text-align: center;
     padding: 15px;
+    color: #ffffff;
+    text-shadow: 0 0 2px #ffffff, 0 0 10px #ffffff, 0 0 20px #0ba9ca, 0 0 30px #0ba9ca, 0 0 40px #0ba9ca, 0 0 50px #0ba9ca;
+    -webkit-animation: blink 1.5s infinite alternate;
+            animation: blink 1.5s infinite alternate;
   }
   .abt-con-text p{
     font-size: 18px;
     line-height: 30px;
-    text-align: start;
+    text-align: justify;
     padding: 15px;
   }
   #one-change{

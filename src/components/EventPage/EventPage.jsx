@@ -80,8 +80,12 @@ const EventPage = () => {
         </div>
 
        <div className='contact-container'  >
-        <h4>Event Co-ordinators:<span>{ShowEvent[0].EventHead}</span></h4>
-        <h4>Mobile number:<span>{ShowEvent[0].Contact}</span></h4>
+        <h4>Event Co-ordinators:</h4>
+        <div className='contact-container-text'>
+        <span>{ShowEvent[0].EventHead1} - {ShowEvent[0].Contact1}</span>
+          <span>{ShowEvent[0].EventHead2} - {ShowEvent[0].Contact2}</span>
+        </div>
+          
        </div>
 
        <div className='register-container' >
@@ -91,8 +95,13 @@ const EventPage = () => {
            </div>
            <div className='eve-btn-con'>
 
-          <a href='https://forms.gle/KMe9rseqcMUWKfYh7'><button className='bt1' >Register to Symphosium</button></a> 
-         <a href={ShowEvent[0].link} > <button className='bt2' >Register to {ShowEvent[0].EventName}</button></a> 
+          <a href='https://forms.gle/KMe9rseqcMUWKfYh7'>
+            <button className='bt1' >Register to Symposium</button>
+            </a> 
+         <a href={ShowEvent[0].link} > 
+         <button className='bt2' >Register to {ShowEvent[0].EventName}
+         </button>
+         </a> 
            
             
 

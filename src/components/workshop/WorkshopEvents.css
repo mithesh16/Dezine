@@ -67,6 +67,11 @@
     color: rgb(193, 189, 189);
     
 }
+.contact-container-text{
+    display: grid;
+    gap: 10px;
+    font-size: 20px;
+}
 .eve-rules-con  {
     display: flex;
     flex-direction: column;
