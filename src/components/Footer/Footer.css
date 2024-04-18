@@ -1,0 +1,28 @@
+.icon{
+    color: white;
+    font-size: 24px;
+}
+.ft-sec{
+    background-color: black;
+}
+.ft-sec p{
+    font-size: 24px;
+    color: rgb(238, 237, 236);
+}
+.mark-con{
+    display: flex;
+    gap: 40px;
+    padding: 10px 30px;
+   
+    justify-content: space-between;
+}
+
+@media only screen and (max-width:600px) {
+    .ft-sec p{
+        font-size: 14px;
+        padding: 10px;
+    }
+    .mark-con{
+        padding: 0px 30px;
+    }
+}

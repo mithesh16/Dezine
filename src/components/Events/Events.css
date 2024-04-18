@@ -1,0 +1,76 @@
+.eve-sec{
+    background-color: rgb(8, 8, 8);
+    padding: 70px 30px;
+    
+}
+.eve-sec h1{
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  
+  text-align: center;
+  font-size: 40px;
+}
+.eve-sec p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 24px;
+    padding: 30px;
+}
+
+.scroll-rev span{
+    color:hsl(0 0% 100%/0.2);
+    background-image: linear-gradient(90deg,rgb(248, 245, 245),rgb(242, 242, 246));
+    background-clip: text;
+    background-size: 0% 100%;
+    
+    background-repeat: no-repeat;
+    animation: scroll-reveal linear forwards;
+    animation-timeline: view();
+    animation-range: contain;
+    display: inline;
+    animation-range-start:20vh ;
+   
+}
+
+@keyframes scroll-reveal{
+    to{background-size: 100% 100%;}
+}
+
+
+   .minor {
+    color: #ffffff;
+    text-shadow: 0 0 2px #ffffff, 0 0 10px #ffffff, 0 0 20px #0ba9ca, 0 0 30px #0ba9ca, 0 0 40px #0ba9ca, 0 0 50px #0ba9ca;
+    -webkit-animation: blink 1.5s infinite alternate;
+            animation: blink 1.5s infinite alternate;
+  }
+  .glow .major {
+    display: block;
+    font-size: 200px;
+  }
+   .minor {
+    display: block;
+    font-size: 120px;
+  }
+  
+  @-webkit-keyframes blink {
+    100% {
+      text-shadow: 0 0 2px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #0ba9ca, 0 0 70px #0ba9ca, 0 0 80px #0ba9ca;
+    }
+  }
+  
+  @keyframes blink {
+    100% {
+      text-shadow: 0 0 2px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #0ba9ca, 0 0 70px #0ba9ca, 0 0 80px #0ba9ca;
+    }
+  }
+
+  .eve-card-main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }

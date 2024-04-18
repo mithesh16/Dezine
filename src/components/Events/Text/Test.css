@@ -1,0 +1,81 @@
+.text-wrap{
+   
+    background-color: black;
+    padding: 70px 30px;
+}
+.scroll-reveal h2, p{
+    text-align: center;
+}
+.scroll-reveal span{
+color: hsl(0 0% 100% /0.2);
+background-clip: text;
+background-image: linear-gradient(90deg,rgb(247, 240, 240),rgb(248, 248, 252));
+
+background-size:0% 100% ;
+animation: scroll-reveal linear forwards;
+animation-timeline: view();
+background-repeat: no-repeat;
+animation-range: contain;
+animation-timing-function: ease-in-out;
+
+
+
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-style: normal;
+
+}
+
+.scroll-reveal h2 span{
+    animation-range-start:cover 20vh;
+    animation-range-end: cover 30vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+
+}
+
+.scroll-reveal p span{
+    animation-range-start:cover 22.5vh;
+    animation-range-end: cover 50vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+
+}
+
+@keyframes scroll-reveal{
+    to{
+        background-size: 100% 100%;
+    }
+}
+
+.minor {
+    color: #ffffff;
+    text-shadow: 0 0 2px #ffffff, 0 0 10px #ffffff, 0 0 20px #0ba9ca, 0 0 30px #0ba9ca, 0 0 40px #0ba9ca, 0 0 50px #0ba9ca;
+    -webkit-animation: blink 1.5s infinite alternate;
+            animation: blink 1.5s infinite alternate;
+  }
+  .glow .major {
+    display: block;
+    font-size: 200px;
+  }
+   .minor {
+    display: block;
+    font-size: 120px;
+    margin-bottom: 70px;
+  }
+  
+  @-webkit-keyframes blink {
+    100% {
+      text-shadow: 0 0 2px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #0ba9ca, 0 0 70px #0ba9ca, 0 0 80px #0ba9ca;
+    }
+  }
+  
+  @keyframes blink {
+    100% {
+      text-shadow: 0 0 2px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #0ba9ca, 0 0 70px #0ba9ca, 0 0 80px #0ba9ca;
+    }
+  }

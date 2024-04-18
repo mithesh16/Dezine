@@ -1,0 +1,205 @@
+.event-page-con  {
+    color: rgb(238, 234, 234);
+    padding: 70px 30px;
+    background-color: rgb(9, 9, 9);
+}
+
+.eve-name-con h3,.eve-des-con h3,.contact-container h4{
+     color: rgb(234, 233, 233);
+     font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+   margin: 20px 0px;
+   
+    
+}
+.eve-name-con h3 span,.contact-container h4 span{
+    color: rgb(193, 189, 189);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 20px;
+}
+.eve-des-con {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* //----------------------------------------------- */
+   
+    
+}
+.eve-des-con p{
+    text-align: left;
+    line-height: 30px;
+    font-size: 20px;
+
+    color: rgb(193, 189, 189);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.eve-round-con {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   
+}
+
+.eve-round-con h3,.eve-rules-con h3{
+   font-size: 24px;
+   margin-top: 20px;
+}
+.eve-round-con p{
+    font-size: 20px;
+    text-align: left;
+    color: rgb(193, 189, 189);
+}
+.extra-con{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.extra-con p{
+    font-size: 20px;
+    text-align: left;
+    color: rgb(193, 189, 189);
+    
+}
+.eve-rules-con  {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+}
+.eve-rules-con p{
+    font-size: 20px;
+    text-align: left;
+    color: rgb(193, 189, 189);
+}
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+
+}
+.note-con{
+    color: rgb(239, 13, 13);
+    margin: 20px 0px;
+}
+.note-con h4{
+    font-size: 24px;
+    margin: 20px 0px;
+}
+.note-con p{
+    font-size: 20px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+.eve-btn-con{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+
+
+.eve-btn-con button{
+   
+    height: auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 15px 20px;
+    width: auto;
+   background-color: rgb(12, 12, 12);
+    color: rgb(235, 152, 9);
+   
+   
+    
+    
+   
+    cursor: pointer;
+}
+         
+/* .bt1 {
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+   transition: 0.5s;
+}
+  
+
+  .bt1:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+  } */
+
+  .eve-name{
+    color: white;
+}
+
+  .bt1,.bt2{
+    background:transparent;
+    padding: 15px 20px;
+    border: 2px solid white;
+    
+  }
+
+  @media only screen and (max-width:600px){
+    .event-page-con{
+        padding: 30px 15px;
+
+    }
+    .event-page-con h3{
+        font-size: 20px;
+
+    }
+    .event-page-con p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .note-con h4{
+        font-size: 24px;
+    }
+    .note-con p{
+        font-size: 20px;
+    }
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-container h4{
+       font-size: 18px;
+    }
+    .eve-btn-con{
+        display: flex;
+        flex-direction: column;
+    }
+    .eve-btn-con button{
+        padding: 20px;
+    }
+  }
+
+
+  
+ 
+           
+           
+  

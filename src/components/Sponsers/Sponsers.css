@@ -1,0 +1,72 @@
+.spon-sec{
+    background-color: black;
+    
+}
+.spon-sec h1{
+   color: white;
+   text-align: center;
+}
+.spon-sec img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border: 1px solid white;
+    margin-top: 70px;
+}
+.mark-img-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-bottom: 40px;
+   
+    
+    
+}
+.minor {
+    color: #ffffff;
+    text-shadow: 0 0 2px #ffffff, 0 0 10px #ffffff, 0 0 20px #0ba9ca, 0 0 30px #0ba9ca, 0 0 40px #0ba9ca, 0 0 50px #0ba9ca;
+    -webkit-animation: blink 1.5s infinite alternate;
+            animation: blink 1.5s infinite alternate;
+  }
+  .glow .major {
+    display: block;
+    font-size: 200px;
+  }
+   .minor {
+    display: block;
+    font-size: 40px;
+    margin:70px 0px;
+  }
+  
+  @-webkit-keyframes blink {
+    100% {
+      text-shadow: 0 0 2px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #0ba9ca, 0 0 70px #0ba9ca, 0 0 80px #0ba9ca;
+    }
+  }
+  
+  @keyframes blink {
+    100% {
+      text-shadow: 0 0 2px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #0ba9ca, 0 0 70px #0ba9ca, 0 0 80px #0ba9ca;
+    }
+  }
+
+
+@media only screen and (max-width:600px) {
+    .mark-img-con{
+       gap: 30px;
+       margin-top: -80px;
+      
+    
+    }
+    .mark-img-con img{
+        height: 80px;
+        width: 80px;
+        
+    }
+    .minor{
+      font-style: 24px;
+    }
+    
+    
+}
