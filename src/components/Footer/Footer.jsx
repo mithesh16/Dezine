@@ -14,9 +14,9 @@ const Footer = () => {
           
           <div className='logos'>
           <a  href='mailto:dezinecsd@rajalakshmi.edu.in' target='_blank'>
-          <CiMail className='icon' style={{cursor:"pointer",fontSize:"33px",fontWeight:"bold"}} /></a>
+          <CiMail className='icon' style={{cursor:"pointer",fontSize:"33px",fontWeight:"bold",}} /></a>
           <a  href='https://www.instagram.com/dezine.rec?igsh=cWs5Y3E4cjF6dm0z' target='_blank'>
-          <FaInstagram className='icon' style={{cursor:"pointer"}} /></a>
+          <FaInstagram className='icon' style={{cursor:"pointer",marginLeft:"5px"}} /></a>
           </div>
          
            

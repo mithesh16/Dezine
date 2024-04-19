@@ -57,8 +57,8 @@ Venue: "DG001 (D Block) - Rajalakshmi Engineering College"
    Rule4:"4.All judging decisions are final and binding. No appeals or disputes will be entertained. The event lead reserves the right to disqualify any participant at any time during the event.",
    EventHead1:"Lingesh",
    Contact1:"9790895966",
-   EventHead2:"AJAY KRISHNA",
-   Contact2:"7305905373",
+   EventHead2:"Tinu",
+   Contact2:"7904865509",
    link:"https://forms.gle/1qTu6FjMB2VWmRSG7",
    Timing: "8:30 - 12:00 PM",
     Venue: "DG001 (D Block) - Rajalakshmi Engineering College"
@@ -229,7 +229,7 @@ Venue: "JR1 (Library Block) - Rajalakshmi Engineering College"
 
 },
 {   id:"5",
-    EventName:"Cut Short",
+    EventName:"Cut Shot",
     Participants:"Solo/Team [Max:2]",
     EventDescription_p1:"In this challenge, contestants are given the task of reducing a feature-length film to its essential elements and showcasing their technical expertise and creative abilities through a concise and engaging video presentation.",
    EventDescription_p2:null,
@@ -270,7 +270,7 @@ export const EventName=[
   { id: 2, name: "Beyond Buttons(UI/UX)" },
   { id: 3, name: "Trademark" },
   { id: 4, name: "Clone Quest" },
-  { id: 5, name: "Cut Short" },
+  { id: 5, name: "Cut Shot" },
   { id: 8, name: "Story Arcs" },
   { id: 6, name: "Movie Minds" },
   { id: 7, name: "Best Out of waste" },

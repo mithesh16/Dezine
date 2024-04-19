@@ -19,7 +19,7 @@ const Sponsers = () => {
             <a href="https://www.instagram.com/roxon_in?igsh=MWU2MWk4ZDZ6dW9ycA==" target='_blank'>
             <img  src={roxon} />
             </a>
-            <a href="https:www.wedigistudio.com" target='_blank'>
+            <a href="https://www.wedigistudio.com" target='_blank'>
             <img src={wedigi} />
             </a>
            

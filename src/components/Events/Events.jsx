@@ -16,7 +16,7 @@ const Events = () => {
    { id: "2", name: "Beyond Buttons(UI/UX)",image:beyound },
    { id: "3", name: "Trademark",image:trade },
    { id: "4", name: "Clone Quest",image:clone },
-   { id: "5", name: "Cut Short",image:cut },
+   { id: "5", name: "Cut Shot",image:cut },
    { id: "6", name: "Movie Minds",image:movie },
    { id: "7", name: "Best Out of Waste",image:bofw },
    { id: "8", name: "Story Arcs",image:story },]
