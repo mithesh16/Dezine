@@ -50,7 +50,8 @@
   color: white;
   border-radius: 20px;
   font-size: 20px;
-  width: 100%;
+  width: 90%;
+  margin-top: 10px;
 }
 .abt-text-img-con{
  display: flex;

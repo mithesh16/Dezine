@@ -1,9 +1,10 @@
 .icon{
     color: white;
-    font-size: 24px;
+    font-size: 30px;
 }
 .ft-sec{
-    background-color: #0E1019;
+    height:100%;
+    background-color: #000;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -11,12 +12,24 @@
     font-size: 24px;
     color: rgb(238, 237, 236);
 }
-.mark-con{
+.mark-con {
     display: flex;
     gap: 40px;
     padding: 10px 30px;
-   
     justify-content: space-between;
+    align-items: center;
+}
+
+.logos {
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto; 
+}
+.footer-logo{
+    width: 120px;
+    height: 100px;
+    margin-left: 10px;
 }
 
 @media only screen and (max-width:600px) {
@@ -26,5 +39,14 @@
     }
     .mark-con{
         padding: 0px 30px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logos {
+        padding: 0px 30px;
+
+        display: flex;
+        justify-content: space-between;
+        margin-left: auto; 
     }
 }

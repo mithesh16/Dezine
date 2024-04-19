@@ -13,13 +13,13 @@ const Sponsers = () => {
 
         
             <div className='mark-img-con'>
-            <a href="https://squarebullfintechpvtltd.com">
+            <a href="https://squarebullfintechpvtltd.com" target='_blank'>
             <img src={square1}  />
             </a>
-            <a href="https://www.instagram.com/roxon_in?igsh=MWU2MWk4ZDZ6dW9ycA==">
+            <a href="https://www.instagram.com/roxon_in?igsh=MWU2MWk4ZDZ6dW9ycA==" target='_blank'>
             <img  src={roxon} />
             </a>
-            <a href="https:www.wedigistudio.com">
+            <a href="https:www.wedigistudio.com" target='_blank'>
             <img src={wedigi} />
             </a>
            

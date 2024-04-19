@@ -25,6 +25,7 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
+    text-align: justify;
     /* //----------------------------------------------- */
    
     
@@ -38,32 +39,38 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    text-align: justify;
     
 }
 .eve-round-con {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    text-align: justify;
    
 }
 
 .eve-round-con h3,.eve-rules-con h3{
    font-size: 24px;
    margin-top: 20px;
+   text-align: justify;
 }
 .eve-round-con p{
     font-size: 20px;
     text-align: left;
     color: rgb(193, 189, 189);
+    text-align: justify;
 }
 .extra-con{
     display: flex;
     gap: 20px;
     flex-direction: column;
+    text-align: justify;
     margin-top: 40px;
 }
 .extra-con p{
     font-size: 20px;
+    text-align: justify;
     text-align: justify;
     color: rgb(193, 189, 189);
     
@@ -72,6 +79,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    text-align: justify;
     
     
 }
@@ -79,6 +87,7 @@
     font-size: 20px;
     text-align: justify;
     color: rgb(193, 189, 189);
+    text-align: justify;
 }
 .contact-container{
     justify-content: space-between;
@@ -88,6 +97,7 @@
 .contact-container-text{
     display: grid;
     gap: 10px;
+
     font-size: 20px;
 }
 .note-con{
@@ -169,21 +179,25 @@
   @media only screen and (max-width:600px){
     .event-page-con{
         padding: 30px 15px;
-
+        text-align: justify;
     }
     .event-page-con h3{
         font-size: 20px;
+       
 
     }
     .event-page-con p{
         font-size: 16px;
         line-height: 24px;
+        
     }
     .note-con h4{
         font-size: 24px;
+        text-align: justify;
     }
     .note-con p{
-        font-size: 20px;
+        font-size: 15px;
+        text-align: justify;
     }
     .contact-container{
         display: flex;
@@ -192,6 +206,10 @@
     .contact-container h4{
        font-size: 18px;
     }
+    .contact-container-text span{
+        font-size: 15px;
+     }
+
     .eve-btn-con{
         display: flex;
         flex-direction: column;

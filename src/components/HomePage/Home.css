@@ -6,18 +6,25 @@
 .main-con{
   transform: translateY(-100px);
 }
-
-.pre{
-  font-size: 22px;
-  font-family: "Poppins", sans-serif;
+.reg-btn{
+  height: 50px;
+  width:20%;
+  font-size: 20px;
   font-weight: 600;
-  font-style: normal;
-  color:rgb(222, 219, 219);
-  padding-top: 10px;
-  text-align: center;
-  transform: translateY(10px);
+  border-radius: 20px;
+  z-index: 3;
+  background: transparent;
+ border: 2px ;
+ border-style: solid;
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-style: normal;
+color: rgb(233, 231, 231);
+cursor: pointer;
 
-}
+  }
+
+
 #stars {
   width: 1px;
   height: 1px;
@@ -126,6 +133,7 @@ background: linear-gradient(0deg, rgba(204,210,215,1) 19%, rgba(117,128,139,1) 1
 background: linear-gradient(0deg, rgba(204,210,215,1) 19%, rgba(117,128,139,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  letter-spacing: normal;
 }
 .para-dpt{
   font-family: "Poppins", sans-serif;
@@ -157,9 +165,9 @@ background: linear-gradient(0deg, rgba(204,210,215,1) 19%, rgba(117,128,139,1) 1
   transform: translateY(-20px);
   margin: 10px;
   color: #75808b;
-  
 
 }
+
 .para-dpt{
   
   transform: translateY(20px);
@@ -179,7 +187,23 @@ background: linear-gradient(0deg, rgba(204,210,215,1) 19%, rgba(117,128,139,1) 1
   font-size: 40px;
 }
 
+.reg-btn{
+  height: 50px;
+  width:50%;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 20px;
+  z-index: 3;
+  background: transparent;
+ border: 2px ;
+ border-style: solid;
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-style: normal;
+color: rgb(233, 231, 231);
+cursor: pointer;
 
+  }
 .main-con div{
   
   transform: translateY(100px);

@@ -2,7 +2,7 @@ import React from 'react'
 import './Home.css'
 import TextWrapper from '../TextWrapper/TextWrapper'
 import design from '../../assets/designn.png'
-
+import GradientButton from '../GradientButton/Gradientbutton'
 
 
 
@@ -34,6 +34,9 @@ const Home = () => {
   <p className='para-venue'>
 Rajalakshmi Engineering College
   </p>
+  <a href='https://docs.google.com/forms/d/e/1FAIpQLSdJxmTLjhmnh4VRFBRaxyxL8nUjdHGhBnm2n8zO6gAmG4p1JQ/closedform' target='_blank' >
+  <button className='reg-btn'>Register Now</button>
+    </a>
   </div>
 </div>
 

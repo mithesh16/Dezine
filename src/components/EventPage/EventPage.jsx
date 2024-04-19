@@ -20,9 +20,10 @@ const EventPage = () => {
   return (
     <div className='event-page-con'>
        <div className='eve-name-con'  >
-       <h3  > Event Name :<span id='eve-name' style={{color:"white",fontStyle:"bold"}} >{ShowEvent[0]?.EventName}</span></h3>
-       <h3> Participants:<span>{ShowEvent[0].Participants}</span></h3>
+       <h3  > Event Name :<span id='eve-name' style={{color:"white",fontWeight:"black"}} >{ShowEvent[0]?.EventName}</span></h3>
+       <h3> Event Type:<span>{ShowEvent[0].Participants}</span></h3>
        </div> 
+
 
       <div className='eve-des-con'>
 
@@ -79,10 +80,18 @@ const EventPage = () => {
       {ShowEvent[0].Rule6?<p>{ShowEvent[0].Rule6}</p>:<></>}
         </div>
 
+        <div className='contact-container'  >
+        <h4>Event Details:</h4>
+        <div className='contact-container-text'>
+        <span style={{color:"#eee",fontWeight:"black"}} >Venue - {ShowEvent[0].Venue}</span>
+          <span style={{color:"#eee",fontWeight:"black"}}>Timing- {ShowEvent[0].Timing}</span>
+        </div>
+        </div>
+
        <div className='contact-container'  >
         <h4>Event Co-ordinators:</h4>
         <div className='contact-container-text'>
-        <span>{ShowEvent[0].EventHead1} - {ShowEvent[0].Contact1}</span>
+        <span >{ShowEvent[0].EventHead1} - {ShowEvent[0].Contact1}</span>
           <span>{ShowEvent[0].EventHead2} - {ShowEvent[0].Contact2}</span>
         </div>
           
@@ -90,15 +99,21 @@ const EventPage = () => {
 
        <div className='register-container' >
            <div className='note-con'  >
-             <h4>Note</h4>
-             <p>Before registering for an individual event, make sure you are registered for the overall symposium</p>
+             <h4>Note:</h4>
+             <ul>
+              <li> <p>Before registering for an individual event, make sure you are registered for the overall symposium</p></li>
+              <li><p>Labs with the required facilities will be provided.
+              Participants can feel free to bring their own laptops with chargers if they wish to do so.
+              </p></li>
+             </ul>
+            
            </div>
            <div className='eve-btn-con'>
 
-          <a href='https://forms.gle/KMe9rseqcMUWKfYh7'>
+          <a href='https://forms.gle/KMe9rseqcMUWKfYh7' target='_blank'>
             <button className='bt1' >Register to Symposium</button>
             </a> 
-         <a href={ShowEvent[0].link} > 
+         <a href={ShowEvent[0].link} target='_blank' > 
          <button className='bt2' >Register to {ShowEvent[0].EventName}
          </button>
          </a> 
